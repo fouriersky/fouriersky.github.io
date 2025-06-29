@@ -1,4 +1,4 @@
 ---
-layout: articles
+layout: page
 order: 3
 ---
