@@ -31,6 +31,8 @@ For detailed instructions on how to set up and run this website locally, please 
 
 - 📘 [本地开发指南.md](./本地开发指南.md) - Comprehensive guide in Chinese (中文完整指南)
 - 📗 [LOCAL_DEVELOPMENT.md](./LOCAL_DEVELOPMENT.md) - Comprehensive guide in English
+- ⚡ [QUICK_REFERENCE.md](./QUICK_REFERENCE.md) - Quick reference for common commands (快速参考)
+- 🔧 [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) - Troubleshooting guide (问题解决指南)
 
 ### Quick Start
 
