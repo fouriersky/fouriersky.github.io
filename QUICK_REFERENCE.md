@@ -229,7 +229,7 @@ mermaid: true         # 启用 Mermaid 图表 / Enable Mermaid
 
 - 本地开发 / Local Dev: http://localhost:4000
 - 备用端口 / Alternative: http://127.0.0.1:4000
-- 生产环境 / Production: https://fouriersky.github.io
+- 生产环境 / Production: 见 `_config.yml` 中的 `url` 配置 / See `url` in `_config.yml`
 
 ---
 

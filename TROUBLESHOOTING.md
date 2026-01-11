@@ -335,7 +335,12 @@ ping rubygems.org
 ```bash
 # 临时使用清华镜像 / Temporarily use Tsinghua mirror
 bundle config mirror.https://rubygems.org https://mirrors.tuna.tsinghua.edu.cn/rubygems
+
+# 如需恢复默认源 / To revert to default source
+bundle config --delete mirror.https://rubygems.org
 ```
+
+**注意:** 使用前请确认镜像源可用 / **Note:** Verify mirror availability before use
 
 **方案 C: 配置代理 / Configure proxy**
 ```bash
@@ -370,7 +375,11 @@ bundle exec jekyll build
 ```yaml
 # _config.yml
 baseurl: ""  # 本地开发应为空 / Should be empty for local development
+             # 如果部署到子目录，例如 /blog，则生产环境需设置
+             # For production on subdirectory like /blog, set accordingly
 ```
+
+**注意:** 本项目部署在根目录，baseurl 应保持为空 / **Note:** This project deploys to root, baseurl should remain empty
 
 **方案 C: 硬刷新浏览器 / Hard refresh browser**
 - Windows/Linux: `Ctrl + Shift + R`
