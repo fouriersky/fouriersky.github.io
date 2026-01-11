@@ -375,11 +375,10 @@ bundle exec jekyll build
 ```yaml
 # _config.yml
 baseurl: ""  # 本地开发应为空 / Should be empty for local development
-             # 如果部署到子目录，例如 /blog，则生产环境需设置
-             # For production on subdirectory like /blog, set accordingly
 ```
 
-**注意:** 本项目部署在根目录，baseurl 应保持为空 / **Note:** This project deploys to root, baseurl should remain empty
+**注意:** 本项目部署在根目录，baseurl 应保持为空。如果项目部署到子目录（如 GitHub Pages 项目页面），则需要相应设置。
+**Note:** This project deploys to root, baseurl should remain empty. If deploying to a subdirectory (like GitHub Pages project sites), set accordingly.
 
 **方案 C: 硬刷新浏览器 / Hard refresh browser**
 - Windows/Linux: `Ctrl + Shift + R`
