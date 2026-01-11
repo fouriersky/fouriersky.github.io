@@ -25,6 +25,34 @@ Jekyll site. The following is a list of targets:
 To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
 latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
+## Local Development
+
+For detailed instructions on how to set up and run this website locally, please refer to:
+
+- 📘 [本地开发指南.md](./本地开发指南.md) - Comprehensive guide in Chinese (中文完整指南)
+- 📗 [LOCAL_DEVELOPMENT.md](./LOCAL_DEVELOPMENT.md) - Comprehensive guide in English
+
+### Quick Start
+
+**Option 1: Using Dev Container (Recommended)**
+1. Open this repository in VS Code
+2. Click "Reopen in Container" when prompted
+3. Run `bash tools/run.sh`
+4. Visit http://localhost:4000
+
+**Option 2: Local Installation**
+```bash
+# Install dependencies
+bundle install
+
+# Start development server
+bundle exec jekyll serve
+# Or use the helper script
+bash tools/run.sh
+```
+
+Visit http://127.0.0.1:4000 to preview your site.
+
 ## Usage
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
